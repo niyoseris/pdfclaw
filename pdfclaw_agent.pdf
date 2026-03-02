@@ -1,0 +1,655 @@
+%PDF-1.4
+%âãÏÓ
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+/Names <<
+/EmbeddedFiles <<
+/Names [ (pdfclaw\137chat\056html) 10 0 R ]
+>>
+>>
+/AcroForm <<
+/Fields [ 12 0 R ]
+>>
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font 6 0 R
+/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Parent 2 0 R
+/Annots [ 12 0 R ]
+>>
+endobj
+5 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ]
+/Length 1074
+>>
+stream
+Gat%"?&tI7'Rf.Ggp_I-M&.,#O*R5:bc$f\mRiDEl6?<W@E1+%ELKA^O71%TN$f]I2kY])n2]\.hIE2ij$DLN]`GVriQikYPX2h_apEjo,<V8(TeS,s$I^knPCe?g7G:HOKcho[.HI"^4>1_/'(4XGLkQ'tk)^IbHpCF>P)dU#VkXM06^Eb=b72,_qr)7lW]f-cJ@h)rp(&SOKC[hXbN\(_B1h`ic?/hmE-cpE&/$8i&JE=>Q%e<pW<:5d68jg>T[eJF8?hEg#LjC5PCb,!'7_OP,0tfc=j"')ca+@69qUPKrMQf\l5&frVNkmcM3q/FR$Hu<5>)+J"/,!A"nP?c<j1FY<sp=D:emOY\G0/@<cDRrN$g%#<@:*kI]UX<&q$dEO/Y[+Qs_q,Qk97rPU%[e,@Z%tNdNAm!LAdXK[Xb)3MNFlg3O2l;@b8U84=NM/Rq_4`tP&Vp[`@B-h^tj<'4V`3<e_F8*fA*F4/PQXWZuCBIVAa4nHDBKC*'ubM*DQH0-48&U1s,_uV\)5Uh8pC?oO!3=0X'g.DfaDn^eAcIu%26E4r'RP@&@@:(_j?b2eZL$A:oG1+*)$G$7[hqGKuW/%g"[?Y?,eabb;BZl&oH.Y`foDpkUn#OuXhn[h$!4ro\TJKEV7/i=[\IQdb=H9Va#kN1"&T$2FC==)(>BRFc_BtAf%tlH<*g<b8><lP&1HR-l--9.b*j5+t%chiX>$&j@l\G+P_7rRjK9d//ao?<1bKo#0@t@j4b^5B3Vf$(b\Q_'WG:P`?`3#Q#]%'<@>Q)XTeOKf[d`JV_cahRVEc1Q-7uSmp?lcD\olTdi.8a4@-X#+C[aZV,;?rD1dpMi!md_%P%.<t)B7d<Kg"Wsa2mAG\)gJgYp<m>E<P$5?rb<5q+qO2b9XV68pJT`E#!9/+'jaCgr;q\n+j.Q?0pkI3VI&.FNUIXIV5:.t,[,i#PT0N%P-GSh?<0/BinG'6aun!."6OOi*(e@AUj8jC=#bLkX4bc<ghtVVFA1S%3-5L_Qh+=$$AC!2I&Z7;@!hk20RPan2b%8(M*<-R@3AbPc5Rh!T8p`ED?~>
+endstream
+endobj
+6 0 obj
+<<
+/F1 7 0 R
+/F2 8 0 R
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/Type /EmbeddedFile
+/Subtype /text#2Fhtml
+/Params <<
+/Size 19463
+>>
+/Length 19463
+>>
+stream
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PDFClaw AI Chat</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; height: 100vh; display: flex; flex-direction: column; }
+.header { background: #1a1a2e; padding: 12px 16px; border-bottom: 1px solid #2a2a4e; }
+.header h1 { font-size: 18px; color: #fff; }
+.header p { font-size: 10px; color: #888; margin-top: 2px; }
+.api-key-area { background: #16213e; padding: 12px 16px; border-bottom: 1px solid #2a2a4e; display: flex; gap: 8px; align-items: center; }
+.api-key-area input { flex: 1; background: #0f0f1a; border: 1px solid #2a2a4e; color: #fff; padding: 8px 12px; border-radius: 4px; font-size: 12px; outline: none; }
+.api-key-area input:focus { border-color: #e94560; }
+.api-key-area button { background: #e94560; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; font-size: 12px; cursor: pointer; }
+.api-key-area button:hover { background: #d63851; }
+.api-key-area .saved { color: #7fff7f; font-size: 11px; }
+.chat { flex: 1; overflow-y: auto; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; }
+.msg { max-width: 85%; padding: 10px 14px; border-radius: 10px; line-height: 1.4; font-size: 13px; white-space: pre-wrap; word-wrap: break-word; }
+.msg.user { background: #e94560; color: #fff; align-self: flex-end; border-bottom-right-radius: 4px; }
+.msg.ai { background: #16213e; color: #e0e0e0; align-self: flex-start; border-bottom-left-radius: 4px; }
+.msg.system { background: #2a2a4e; color: #888; align-self: center; font-size: 11px; text-align: center; }
+.msg.tool { background: #1a3a1a; color: #7fff7f; align-self: flex-start; font-size: 11px; font-family: monospace; }
+.msg.error { background: #4a1a1a; color: #ff6b6b; }
+.input-area { background: #1a1a2e; padding: 12px 16px; border-top: 1px solid #2a2a4e; display: flex; gap: 8px; }
+.input-area input { flex: 1; background: #0f0f1a; border: 1px solid #2a2a4e; color: #fff; padding: 10px 14px; border-radius: 6px; font-size: 13px; outline: none; }
+.input-area input:focus { border-color: #e94560; }
+.input-area button { background: #e94560; color: #fff; border: none; padding: 10px 20px; border-radius: 6px; font-size: 13px; cursor: pointer; font-weight: 600; }
+.input-area button:hover { background: #d63851; }
+.input-area button:disabled { background: #555; cursor: not-allowed; }
+.typing { color: #888; font-style: italic; }
+</style>
+</head>
+<body>
+<div class="header">
+    <h1>PDFClaw AI Agent</h1>
+    <p>Model: Apriel-1.5-15b-Thinker | Tool Calling | Session Storage</p>
+</div>
+<div class="api-key-area">
+    <input type="password" id="apiKeyInput" placeholder="Enter your Together API key..." />
+    <button onclick="saveApiKey()">Save</button>
+    <span class="saved" id="apiKeyStatus"></span>
+</div>
+<div class="chat" id="chat">
+    <div class="msg system">Welcome! Enter your Together API key above. Tools: weather, Wikipedia search, fetch URL, calculate, save/load data, time, tweets, generate content.</div>
+</div>
+<div class="input-area">
+    <input type="text" id="input" placeholder="Type your message..." autofocus />
+    <button id="sendBtn" onclick="sendMessage()">Send</button>
+</div>
+<script>
+const API_URL = "https://api.together.xyz/v1/chat/completions";
+const MODEL = "ServiceNow-AI/Apriel-1.5-15b-Thinker";
+
+const chatEl = document.getElementById("chat");
+const inputEl = document.getElementById("input");
+const sendBtn = document.getElementById("sendBtn");
+const apiKeyInput = document.getElementById("apiKeyInput");
+const apiKeyStatus = document.getElementById("apiKeyStatus");
+
+// Load saved API key
+let API_KEY = sessionStorage.getItem('together_api_key') || '';
+if (API_KEY) {
+    apiKeyInput.value = API_KEY;
+    apiKeyStatus.textContent = 'âœ“ Saved';
+}
+
+function saveApiKey() {
+    API_KEY = apiKeyInput.value.trim();
+    if (API_KEY) {
+        sessionStorage.setItem('together_api_key', API_KEY);
+        apiKeyStatus.textContent = 'âœ“ Saved';
+    } else {
+        apiKeyStatus.textContent = 'âœ— Empty';
+    }
+}
+
+// Session storage for user data
+const sessionData = JSON.parse(sessionStorage.getItem('pdfclaw_data') || '{}');
+
+// Define tools available to the AI
+const tools = [
+    {
+        type: "function",
+        function: {
+            name: "get_weather",
+            description: "Get current weather for a city. Use this for weather queries.",
+            parameters: {
+                type: "object",
+                properties: {
+                    city: { type: "string", description: "City name, e.g. 'Nicosia', 'London'" }
+                },
+                required: ["city"]
+            }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "web_search",
+            description: "Search Wikipedia for information. Returns article summary.",
+            parameters: {
+                type: "object",
+                properties: {
+                    query: { type: "string", description: "Search query for Wikipedia" }
+                },
+                required: ["query"]
+            }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "fetch_url",
+            description: "Fetch content from a specific URL. Returns extracted text.",
+            parameters: {
+                type: "object",
+                properties: {
+                    url: { type: "string", description: "Full URL to fetch, e.g. 'https://example.com'" }
+                },
+                required: ["url"]
+            }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "calculate",
+            description: "Perform mathematical calculations",
+            parameters: {
+                type: "object",
+                properties: {
+                    expression: { type: "string", description: "Math expression to evaluate, e.g. '15*200/100'" }
+                },
+                required: ["expression"]
+            }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "save_data",
+            description: "Save data to session storage for later use",
+            parameters: {
+                type: "object",
+                properties: {
+                    key: { type: "string", description: "Name/key for the data" },
+                    value: { type: "string", description: "Value to store" }
+                },
+                required: ["key", "value"]
+            }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "get_data",
+            description: "Retrieve previously saved data from session storage",
+            parameters: {
+                type: "object",
+                properties: {
+                    key: { type: "string", description: "Name/key of the data to retrieve" }
+                },
+                required: ["key"]
+            }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "list_data",
+            description: "List all saved data keys in session storage",
+            parameters: { type: "object", properties: {}, required: [] }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "get_current_time",
+            description: "Get the current date and time",
+            parameters: { type: "object", properties: {}, required: [] }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "generate_tweet",
+            description: "Generate a tweet-ready message (max 280 chars)",
+            parameters: {
+                type: "object",
+                properties: {
+                    topic: { type: "string", description: "Topic for the tweet" },
+                    style: { type: "string", description: "Style: funny, professional, casual, inspirational" }
+                },
+                required: ["topic"]
+            }
+        }
+    },
+    {
+        type: "function",
+        function: {
+            name: "generate_content",
+            description: "Generate various types of content: articles, emails, code, stories, summaries, etc.",
+            parameters: {
+                type: "object",
+                properties: {
+                    type: { type: "string", description: "Type of content: article, email, code, story, summary, list, poem" },
+                    topic: { type: "string", description: "Topic or subject of the content" },
+                    length: { type: "string", description: "Length: short, medium, long" },
+                    style: { type: "string", description: "Style: formal, casual, professional, creative" }
+                },
+                required: ["type", "topic"]
+            }
+        }
+    }
+];
+
+// Tool implementations
+async function executeTool(toolName, args) {
+    switch(toolName) {
+        case "get_weather":
+            // Open-Meteo API - CORS-friendly, reliable
+            try {
+                // First get coordinates for the city
+                const geoUrl = `https://geocoding-api.open-meteo.com/v1/search?name=${encodeURIComponent(args.city)}&count=1`;
+                const geoRes = await fetch(geoUrl);
+                if (!geoRes.ok) return `Error finding city: ${geoRes.status}`;
+                const geoData = await geoRes.json();
+                
+                if (!geoData.results || geoData.results.length === 0) {
+                    return `City "${args.city}" not found`;
+                }
+                
+                const lat = geoData.results[0].latitude;
+                const lon = geoData.results[0].longitude;
+                const cityName = geoData.results[0].name;
+                
+                // Get weather
+                const weatherUrl = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`;
+                const weatherRes = await fetch(weatherUrl);
+                if (!weatherRes.ok) return `Error fetching weather: ${weatherRes.status}`;
+                const weatherData = await weatherRes.json();
+                
+                const cw = weatherData.current_weather;
+                const temp = cw.temperature;
+                const wind = cw.windspeed;
+                const desc = cw.weathercode <= 3 ? "Clear" : cw.weathercode <= 49 ? "Cloudy/Foggy" : cw.weathercode <= 99 ? "Rain/Drizzle" : "Storm/Snow";
+                
+                return `Weather in ${cityName}: ${temp}Â°C, ${desc}, Wind: ${wind} km/h`;
+            } catch(e) {
+                return `Error: ${e.message}`;
+            }
+        
+        case "web_search":
+            // Wikipedia API - CORS-friendly
+            try {
+                const searchUrl = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(args.query)}`;
+                const res = await fetch(searchUrl);
+                if (!res.ok) {
+                    // Try search API
+                    const searchApiUrl = `https://en.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(args.query)}&limit=3&format=json&origin=*`;
+                    const searchRes = await fetch(searchApiUrl);
+                    if (!searchRes.ok) return `Wikipedia search failed: ${searchRes.status}`;
+                    const searchData = await searchRes.json();
+                    if (searchData[1] && searchData[1].length > 0) {
+                        let results = 'Wikipedia results for "' + args.query + '":\n';
+                        for (let i = 0; i < searchData[1].length; i++) {
+                            results += (i+1) + '. ' + searchData[1][i] + ' - ' + searchData[3][i] + '\n';
+                        }
+                        return results;
+                    }
+                    return `No Wikipedia results for "${args.query}"`;
+                }
+                const data = await res.json();
+                return `Wikipedia: ${data.title}
+${data.extract || data.description || 'No summary available'}
+Source: ${data.content_urls?.desktop?.page || 'Wikipedia'}`;
+            } catch(e) {
+                return `Error: ${e.message}`;
+            }
+        
+        case "fetch_url":
+            // Fetch URL content via CORS proxy
+            try {
+                let url = args.url;
+                if (!url.startsWith('http')) url = 'https://' + url;
+                
+                // Try multiple CORS proxies
+                const corsProxies = [
+                    `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
+                    `https://corsproxy.io/?${encodeURIComponent(url)}`
+                ];
+                
+                let html = null;
+                for (const proxyUrl of corsProxies) {
+                    try {
+                        const res = await fetch(proxyUrl);
+                        if (res.ok) {
+                            html = await res.text();
+                            break;
+                        }
+                    } catch(e) {}
+                }
+                
+                if (!html) return `Could not fetch ${url}. CORS proxies blocked. Try Wikipedia search instead.`;
+                
+                // Extract text
+                const text = html.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+                               .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+                               .replace(/<[^>]+>/g, ' ')
+                               .replace(/&nbsp;/g, ' ')
+                               .replace(/&amp;/g, '&')
+                               .replace(/\s+/g, ' ')
+                               .substring(0, 3000);
+                return `Content from ${url}:
+${text}`;
+            } catch(e) {
+                return `Error: ${e.message}`;
+            }
+        
+        case "calculate":
+            try {
+                const result = Function('"use strict"; return (' + args.expression + ')')();
+                return `Result: ${args.expression} = ${result}`;
+            } catch(e) {
+                return `Error calculating: ${e.message}`;
+            }
+        
+        case "save_data":
+            sessionData[args.key] = args.value;
+            sessionStorage.setItem('pdfclaw_data', JSON.stringify(sessionData));
+            return `Saved: ${args.key} = "${args.value}"`;
+        
+        case "get_data":
+            const value = sessionData[args.key];
+            if (value !== undefined) {
+                return `Retrieved: ${args.key} = "${value}"`;
+            }
+            return `No data found for key: ${args.key}`;
+        
+        case "list_data":
+            const keys = Object.keys(sessionData);
+            if (keys.length === 0) return "No saved data found.";
+            return `Saved data keys: ${keys.join(', ')}\nData: ${JSON.stringify(sessionData, null, 2)}`;
+        
+        case "get_current_time":
+            const now = new Date();
+            return `Current time: ${now.toLocaleString()}`;
+        
+        case "generate_tweet":
+            // Return prompt for AI to generate tweet
+            return `Generate a tweet about "${args.topic}" (style: ${args.style || 'casual'}). Keep it under 280 characters. Return ONLY the tweet text.`;
+        
+        case "generate_content":
+            // Return prompt for AI to generate content
+            const length = args.length || 'medium';
+            const style = args.style || 'professional';
+            return `Generate a ${length} ${args.type} about "${args.topic}" in ${style} style. Return ONLY the content, no explanations.`;
+        
+        default:
+            return `Unknown tool: ${toolName}`;
+    }
+}
+
+let messages = [
+    { 
+        role: "system", 
+        content: "You are a helpful AI assistant with access to tools. When you need to search the web, calculate, save/retrieve data, or perform specific tasks, use the appropriate tool. Always be helpful and concise. After using a tool, explain the result to the user naturally."
+    }
+];
+
+inputEl.addEventListener("keydown", function(e) {
+    if (e.key === "Enter" && !sendBtn.disabled) sendMessage();
+});
+
+function addMsg(text, cls) {
+    const div = document.createElement("div");
+    div.className = "msg " + cls;
+    div.textContent = text;
+    chatEl.appendChild(div);
+    chatEl.scrollTop = chatEl.scrollHeight;
+    return div;
+}
+
+async function sendMessage() {
+    const msg = inputEl.value.trim();
+    if (!msg) return;
+    
+    if (!API_KEY) {
+        addMsg("Please enter your Together API key above first!", "system");
+        apiKeyInput.focus();
+        return;
+    }
+    
+    addMsg(msg, "user");
+    inputEl.value = "";
+    sendBtn.disabled = true;
+    
+    messages.push({ role: "user", content: msg });
+    
+    const typing = addMsg("Thinking...", "ai typing");
+    
+    try {
+        let response = await callAI();
+        typing.textContent = response;
+        typing.className = "msg ai";
+    } catch(e) {
+        typing.textContent = "Error: " + e.message;
+        typing.className = "msg ai error";
+    }
+    
+    sendBtn.disabled = false;
+    inputEl.focus();
+}
+
+async function callAI() {
+    const res = await fetch(API_URL, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + API_KEY
+        },
+        body: JSON.stringify({
+            model: MODEL,
+            messages: messages,
+            tools: tools,
+            tool_choice: "auto",
+            max_tokens: 1024
+        })
+    });
+    
+    if (!res.ok) {
+        const errText = await res.text();
+        throw new Error(`API Error: ${res.status} - ${errText.substring(0, 100)}`);
+    }
+    
+    const data = await res.json();
+    const assistantMsg = data.choices[0].message;
+    
+    // Add assistant message to history
+    messages.push(assistantMsg);
+    
+    // Check if AI wants to use tools
+    if (assistantMsg.tool_calls && assistantMsg.tool_calls.length > 0) {
+        // Show tool calls
+        for (const toolCall of assistantMsg.tool_calls) {
+            const toolName = toolCall.function.name;
+            const args = JSON.parse(toolCall.function.arguments);
+            addMsg(`Tool: ${toolName}(${JSON.stringify(args)})`, "tool");
+            
+            // Execute tool
+            const result = await executeTool(toolName, args);
+            addMsg(`Result: ${result}`, "tool");
+            
+            // Add tool result to messages
+            messages.push({
+                role: "tool",
+                tool_call_id: toolCall.id,
+                content: result
+            });
+        }
+        
+        // Get final response after tool use
+        const finalRes = await fetch(API_URL, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Authorization": "Bearer " + API_KEY
+            },
+            body: JSON.stringify({
+                model: MODEL,
+                messages: messages,
+                max_tokens: 1024
+            })
+        });
+        
+        if (!finalRes.ok) throw new Error("Failed to get final response");
+        
+        const finalData = await finalRes.json();
+        const finalMsg = finalData.choices[0].message;
+        messages.push(finalMsg);
+        return finalMsg.content;
+    }
+    
+    return assistantMsg.content || "No response";
+}
+</script>
+</body>
+</html>
+endstream
+endobj
+10 0 obj
+<<
+/Type /Filespec
+/F (pdfclaw\137chat\056html)
+/UF (pdfclaw\137chat\056html)
+/EF <<
+/F 9 0 R
+>>
+>>
+endobj
+11 0 obj
+<<
+/Type /XObject
+/Subtype /Form
+/BBox [ 0 0 294 50 ]
+/Resources <<
+/Font <<
+/Helv <<
+/Type /Font
+/Subtype /Type1
+/BaseFont /Helvetica
+>>
+>>
+>>
+/Length 97
+>>
+stream
+q 1 0 0 1 0 0 cm 0 0 1 rg 0 0 294 50 re f BT /Helv 16 Tf 1 1 1 rg 80 15 Td (Open AI Chat) Tj ET Q
+endstream
+endobj
+12 0 obj
+<<
+/Type /Annot
+/Subtype /Widget
+/FT /Btn
+/Ff 65536
+/T (openChatBtn)
+/Rect [ 150 70 445 120 ]
+/AP <<
+/N 11 0 R
+>>
+/MK <<
+/BG [ 0 0 1 ]
+/CA (Open AI Chat)
+>>
+/DA (\057Helv 16 Tf 1 1 1 rg)
+/A <<
+/S /JavaScript
+/JS (this\056exportDataObject\050\173 cName\072 \042pdfclaw\137chat\056html\042\054 nLaunch\072 2 \175\051\073)
+>>
+>>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000275 00000 n 
+0000000493 00000 n 
+0000001659 00000 n 
+0000001700 00000 n 
+0000001807 00000 n 
+0000001919 00000 n 
+0000021503 00000 n 
+0000021619 00000 n 
+0000021908 00000 n 
+trailer
+<<
+/Size 13
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+22250
+%%EOF
